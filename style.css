@@ -1,0 +1,21 @@
+:root{--g:#0b6b2e;--g2:#12a84a;--bg:#eef5ef;--tx:#17251b}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--tx)}
+.wrap{max-width:1050px;margin:0 auto;padding:0 16px}main.wrap{padding:24px 16px}
+.top{background:repeating-linear-gradient(90deg,#0b6b2e 0 60px,#0d7a34 60px 120px);color:#fff;box-shadow:0 2px 8px #0003}
+.nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:14px 16px}
+.logo{font-size:1.4rem;font-weight:800;color:#fff;text-decoration:none}
+nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font-weight:600}nav a:hover{text-decoration:underline}
+.user{opacity:.85}
+h1{color:var(--g)}.card{background:#fff;border-radius:12px;padding:18px;margin:16px 0;box-shadow:0 2px 8px #0001;overflow-x:auto}
+.narrow{max-width:420px;margin:30px auto}
+table{width:100%;border-collapse:collapse}th,td{padding:10px;text-align:left;border-bottom:1px solid #e3ebe5}
+th{background:var(--g);color:#fff}tr.lead td{background:#e6f7ec;font-weight:600}
+label{display:flex;flex-direction:column;font-weight:600;font-size:.9rem;gap:4px;margin-bottom:10px}
+input,select{padding:9px;border:1px solid #bcc9bf;border-radius:8px;font-size:1rem}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end}.row label{margin:0}
+.btn{background:var(--g2);color:#fff;border:0;border-radius:8px;padding:10px 16px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.btn:hover{background:var(--g)}.btn.small{padding:6px 10px;font-size:.85rem}.btn.danger{background:#c62828}.btn.ghost{background:#789}
+.acts{display:flex;gap:6px}.acts form{margin:0}
+.alert{background:#e6f7ec;border-left:4px solid var(--g2);padding:10px 14px;border-radius:6px;margin-bottom:12px}
+.alert.err{background:#fdeaea;border-color:#c62828}.note{color:#456}.score{background:var(--g);color:#fff;padding:3px 10px;border-radius:6px;margin:0 6px}
+.foot{text-align:center;padding:20px;color:#456;font-size:.85rem}
