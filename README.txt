@@ -29,13 +29,6 @@ Nele é possível cadastrar times, jogadores e partidas, além de ver a tabela d
 - PHP  
 - MySQL  
 
-##  Como executar
-
-1. Instale o XAMPP.
-2. Inicie o Apache e o MySQL.
-3. Coloque a pasta do projeto em `C:\xampp\htdocs`.
-4. Importe o arquivo `database.sql` no phpMyAdmin.
-5. Abra `http://localhost/football_manager/`.
 
 ##  Segurança
 
